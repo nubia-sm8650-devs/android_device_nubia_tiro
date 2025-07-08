@@ -8,6 +8,8 @@ $(call inherit-product, device/nubia/sm8650-common/common.mk)
 
 DEVICE_PATH := device/nubia/tiro
 
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/audio_policy_configuration.xml \
     $(DEVICE_PATH)/audio/mixer_paths_pineapple_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/mixer_paths_pineapple_mtp.xml \
