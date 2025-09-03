@@ -34,14 +34,11 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     (
-        'vendor/lib64/camera/com.qti.ois.ois_dw9781_cerro_ov64b40.so',
-        'vendor/lib64/camera/com.qti.ois.ois_dw9784_cerro_imx800.so',
-        'vendor/lib64/camera/com.qti.ois.ois_dw9784_cerro_imx906.so',
-        'vendor/lib64/camera/com.qti.ois.ois_dw9784_cerro_ov50e40.so',
-        'vendor/lib64/camera/com.zte.sensor.imx800_cerro.so',
-        'vendor/lib64/camera/com.zte.sensor.imx906_cerro.so',
-        'vendor/lib64/camera/com.zte.sensor.ov50e40_cerro.so',
-        'vendor/lib64/camera/com.zte.sensor.ov64b40_cerro.so',
+        'vendor/lib64/camera/com.qti.ois.ois_dw9784_tiro.so',
+        'vendor/lib64/camera/com.zte.sensor.gc02m1_tiro.so',
+        'vendor/lib64/camera/com.zte.sensor.ov16a1q_tiro.so',
+        'vendor/lib64/camera/com.zte.sensor.s5kgn5sp03_tiro.so',
+        'vendor/lib64/camera/com.zte.sensor.s5kjn1sq03_tiro.so',
         'vendor/lib64/camera/components/libcamxevainterface.so',
         'vendor/lib64/com.qti.camx.chiiqutils.so',
         'vendor/lib64/com.qti.chiusecaseselector.so',
@@ -88,8 +85,6 @@ blob_fixups: blob_fixups_user_type = {
     'system/priv-app/NubiaCamera/NubiaCamera.apk': blob_fixup().apktool_patch(
         'nubia-camera-patches'
     ),
-    'vendor/lib64/hw/sensors.hal.tof.so': blob_fixup()
-        .binary_regex_replace(b'\x00input\x00', b'\x00fakei\x00'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
