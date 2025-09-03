@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from NebulaAIOS1.0.18MR_NX721J_V
+# All unpinned blobs below are extracted from REDMAGICOS10.0.4_GB
 
 # ACDB
 vendor/etc/acdbdata/pineapple_mtp/MTP_acdb_cal.acdb
@@ -8,30 +8,27 @@ vendor/etc/acdbdata/pineapple_mtp/MTP_workspaceFileXml.qwsp
 vendor/firmware/aw882xx_acf.bin
 
 # Camera
-vendor/lib64/camera/com.qti.ois.ois_dw9781_cerro_ov64b40.so
-vendor/lib64/camera/com.qti.ois.ois_dw9784_cerro_imx800.so
-vendor/lib64/camera/com.qti.ois.ois_dw9784_cerro_imx906.so
-vendor/lib64/camera/com.qti.ois.ois_dw9784_cerro_ov50e40.so
-vendor/lib64/camera/com.zte.eeprom.imx800_cerro.so
-vendor/lib64/camera/com.zte.eeprom.imx906_cerro.so
-vendor/lib64/camera/com.zte.eeprom.ov12d2q_cerro.so
-vendor/lib64/camera/com.zte.eeprom.ov50e40_cerro.so
-vendor/lib64/camera/com.zte.eeprom.ov64b40_cerro.so
-vendor/lib64/camera/com.zte.sensor.imx800_cerro.so
-vendor/lib64/camera/com.zte.sensor.imx906_cerro.so
-vendor/lib64/camera/com.zte.sensor.ov12d2q_cerro.so
-vendor/lib64/camera/com.zte.sensor.ov50e40_cerro.so
-vendor/lib64/camera/com.zte.sensor.ov64b40_cerro.so
-vendor/lib64/camera/com.zte.sensormodule.zte_imx800_cerro.bin
-vendor/lib64/camera/com.zte.sensormodule.zte_imx906_cerro.bin
-vendor/lib64/camera/com.zte.sensormodule.zte_ov12d2q_cerro.bin
-vendor/lib64/camera/com.zte.sensormodule.zte_ov50e40_cerro.bin
-vendor/lib64/camera/com.zte.sensormodule.zte_ov64b40_cerro.bin
-vendor/lib64/camera/com.zte.tuned.zte_imx800_cerro.bin
-vendor/lib64/camera/com.zte.tuned.zte_imx906_cerro.bin
-vendor/lib64/camera/com.zte.tuned.zte_ov12d2q_cerro.bin
-vendor/lib64/camera/com.zte.tuned.zte_ov50e40_cerro.bin
-vendor/lib64/camera/com.zte.tuned.zte_ov64b40_cerro.bin
+vendor/lib64/camera/com.qti.ois.ois_dw9784_tiro.so
+vendor/lib64/camera/com.qti.tuned.default.bin
+vendor/lib64/camera/com.zte.eeprom.ov16a1q_tiro.so
+vendor/lib64/camera/com.zte.eeprom.ov16e1q_tiro.so
+vendor/lib64/camera/com.zte.eeprom.s5kgn5sp03_tiro.so
+vendor/lib64/camera/com.zte.eeprom.s5kjn1sq03_tiro.so
+vendor/lib64/camera/com.zte.sensor.gc02m1_tiro.so
+vendor/lib64/camera/com.zte.sensor.ov16a1q_tiro.so
+vendor/lib64/camera/com.zte.sensor.ov16e1q_tiro.so
+vendor/lib64/camera/com.zte.sensor.s5kgn5sp03_tiro.so
+vendor/lib64/camera/com.zte.sensor.s5kjn1sq03_tiro.so
+vendor/lib64/camera/com.zte.sensormodule.zte_gc02m1_tiro.bin
+vendor/lib64/camera/com.zte.sensormodule.zte_ov16a1q_tiro.bin
+vendor/lib64/camera/com.zte.sensormodule.zte_ov16e1q_tiro.bin
+vendor/lib64/camera/com.zte.sensormodule.zte_s5kgn5sp03_tiro.bin
+vendor/lib64/camera/com.zte.sensormodule.zte_s5kjn1sq03_tiro.bin
+vendor/lib64/camera/com.zte.tuned.zte_gc02m1_tiro.bin
+vendor/lib64/camera/com.zte.tuned.zte_ov16a1q_tiro.bin
+vendor/lib64/camera/com.zte.tuned.zte_ov16e1q_tiro.bin
+vendor/lib64/camera/com.zte.tuned.zte_s5kgn5sp03_tiro.bin
+vendor/lib64/camera/com.zte.tuned.zte_s5kjn1sq03_tiro.bin
 vendor/lib64/hw/camera.qcom.sm8650.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.offline.so
@@ -67,37 +64,14 @@ vendor/lib64/com.qualcomm.mcx.linearmapper.so
 vendor/lib64/com.qualcomm.mcx.nonlinearmapper.so
 vendor/lib64/com.qualcomm.mcx.policy.mfl.so
 vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
-vendor/lib64/libQnnHtpV75CalculatorStub.so
-vendor/lib64/libQnnJsonProfilingReader.so
-vendor/lib64/libVNSInterface.so
-vendor/lib64/libarcsoft_hp_detection.so
-vendor/lib64/libarcsoft_picselfie.so
-vendor/lib64/libarcsoft_qnnhtp.so
-vendor/lib64/libarcsoft_scbokeh_image.so
-vendor/lib64/libarcsoft_scbokeh_video.so
-vendor/lib64/libarcsoft_superportrait.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamxarcskinbeautiful.so
-vendor/lib64/libcamxdepthbokeharc.so
 vendor/lib64/libcamxncsdatafactory.so
-vendor/lib64/libcamxremovefringer.so
-vendor/lib64/libcamxselfiebokeharc.so
-vendor/lib64/libcamxskytone.so
-vendor/lib64/libcamxsuperres.so
 vendor/lib64/libcamxwidelencalc.so
 vendor/lib64/libchifeature2.so
-vendor/lib64/librmca.so
-vendor/lib64/libsky_cls_320.so
-vendor/lib64/libsky_seg_320.so
-vendor/lib64/libsky_seg_toning_320.so
-vendor/lib64/libsr_x1_272_272_12.so
-vendor/lib64/libsr_x2_272_272_12.so
-vendor/lib64/libsr_x4_272_272_12.so
-vendor/lib64/libtflite_model_depurple_544_544.so
-vendor/lib64/libyuv_sr.so
+vendor/lib64/librmMug-lib.so
 
 # Camera app
-system/etc/pictureclassifier/MultiScenePictureClassifier.tflite
 system/priv-app/NubiaCamera/NubiaCamera.apk
 
 # Camera components
@@ -108,7 +82,6 @@ vendor/lib64/camera/components/com.zte.node.capturepostprocess.so
 vendor/lib64/camera/components/com.zte.node.capturereprocess.so
 vendor/lib64/camera/components/com.zte.node.capturescale.so
 vendor/lib64/camera/components/com.zte.node.mcxrealtimepostprocess.so
-vendor/lib64/camera/components/com.zte.node.rawsvq.so
 vendor/lib64/camera/components/com.zte.node.realtimepostprocess.so
 vendor/lib64/camera/components/com.zte.node.sat.so
 vendor/lib64/camera/components/com.zte.node.satpostprocess.so
@@ -124,23 +97,15 @@ vendor/etc/camera/icon/water_mark_drawable_black.argb
 vendor/etc/camera/icon/water_mark_drawable_black_eng.argb
 vendor/etc/camera/icon/water_mark_drawable_white.argb
 vendor/etc/camera/icon/water_mark_drawable_white_eng.argb
-vendor/etc/camera/VNSConfig_4k.xml
-vendor/etc/camera/VNSQnnBinary.bin
 vendor/etc/camera/adaptive_shutter_config.xml
-vendor/etc/camera/adaptive_shutter_config_moon.xml
 vendor/etc/camera/adaptive_shutter_config_night.xml
 vendor/etc/camera/adaptive_shutter_config_renwen.xml
 vendor/etc/camera/camxoverridesettings.txt
 vendor/etc/camera/dualcam_cali.bin
-vendor/etc/camera/eisoverridesettings.txt
 vendor/etc/camera/mfnr_network_denoise_config.xml
-vendor/etc/camera/mfnr_network_denoise_config_moon.xml
 vendor/etc/camera/mfnr_network_denoise_config_night.xml
 vendor/etc/camera/mfnr_network_denoise_config_renwen.xml
 vendor/etc/camera/mfnr_network_denoise_config_underdisplay.xml
-vendor/etc/camera/sr_x1_272_272_12Binary.bin
-vendor/etc/camera/sr_x2_272_272_12Binary.bin
-vendor/etc/camera/sr_x4_272_272_12Binary.bin
 vendor/etc/camera/widelencalc_cali.bin
 
 # Camera firmware
@@ -149,10 +114,7 @@ vendor/firmware/CAMERA_ICP.mbn
 vendor/firmware/CAMERA_ICP.mdt
 
 # Camera OIS firmware
-vendor/firmware/ois_dw9781_cerro_ov64b40.prog
-vendor/firmware/ois_dw9784_cerro_imx800.prog
-vendor/firmware/ois_dw9784_cerro_imx906.prog
-vendor/firmware/ois_dw9784_cerro_ov50e40.prog
+vendor/firmware/ois_dw9784_tiro.prog
 
 # EVA firmware
 vendor/firmware/evass.b19
@@ -175,12 +137,9 @@ vendor/etc/st54l_conf.txt
 vendor/etc/media_profiles_pineapple.xml
 
 # Secure element
-vendor/bin/hw/android.hardware.secure_element-service-aidl
-vendor/etc/init/android.hardware.secure_element.rc
 vendor/etc/vintf/manifest/android.hardware.secure_element.xml
 
 # Sensors
-vendor/lib64/hw/sensors.hal.tof.so
 vendor/lib64/sensors.qsh.so
 
 # Sensors configs
@@ -193,7 +152,12 @@ vendor/etc/sensors/config/lanai_aw9610x_0.json
 vendor/etc/sensors/config/lanai_fcal_ak991x_0.json
 vendor/etc/sensors/config/lanai_lsm6dso_0.json
 vendor/etc/sensors/config/lanai_mtp_ak991x_0.json
-vendor/etc/sensors/config/lanai_stk3b6x_0.json
+
+# Sensors firmware
+vendor/firmware/aw9620x_fw_0.bin
+vendor/firmware/aw9620x_fw_1.bin
+vendor/firmware/aw9620x_reg_0.bin
+vendor/firmware/aw9620x_reg_1.bin
 
 # Thermal config
 vendor/etc/thermal-engine.conf
