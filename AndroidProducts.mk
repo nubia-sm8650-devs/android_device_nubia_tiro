@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cerro.mk
+    $(LOCAL_DIR)/lineage_tiro.mk

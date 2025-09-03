@@ -6,7 +6,7 @@
 # Inherit from nubia sm8650-common
 $(call inherit-product, device/nubia/sm8650-common/common.mk)
 
-DEVICE_PATH := device/nubia/cerro
+DEVICE_PATH := device/nubia/tiro
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -18,7 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    SettingsProviderResCerro
+    SettingsProviderResTiro
 
 # Inherit from proprietary targets
-$(call inherit-product, vendor/nubia/cerro/cerro-vendor.mk)
+$(call inherit-product, vendor/nubia/tiro/tiro-vendor.mk)

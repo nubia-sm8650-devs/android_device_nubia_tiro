@@ -1,1 +1,1 @@
-require board=pineapple|PQ83A01
+require board=pineapple|NX769J

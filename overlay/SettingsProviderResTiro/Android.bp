@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsProviderResCerro",
+    name: "SettingsProviderResTiro",
     device_specific: true
 }
