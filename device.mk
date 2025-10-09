@@ -16,6 +16,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
 
+# NubiaParts
+PRODUCT_PACKAGES += \
+    NubiaParts
+
 # Overlays
 PRODUCT_PACKAGES += \
     SettingsProviderResTiro
