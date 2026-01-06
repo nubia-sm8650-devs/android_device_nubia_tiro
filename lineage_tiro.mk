@@ -28,7 +28,7 @@ PRODUCT_SYSTEM_NAME := NX769J-UN
 PRODUCT_GMS_CLIENTID_BASE := android-zte
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="NX769J-UN NX769J 15 AQ3A.240812.002 20251125.142133 release-keys" \
-    BuildFingerprint=nubia/NX769J-UN/NX769J:15/AQ3A.240812.002/20251125.142133:user/release-keys \
+    BuildDesc="qssi_64-user 15 AQ3A.240812.002 20251224.151310 release-keys" \
+    BuildFingerprint=nubia/NX769J-UN/NX769J:15/AQ3A.240812.002/20251224.151310:user/release-keys \
     DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
